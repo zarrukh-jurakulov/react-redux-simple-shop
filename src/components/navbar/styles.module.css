@@ -1,0 +1,65 @@
+.root {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 0 30px;
+    -webkit-box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.77); 
+    box-shadow: 0px 10px 16px 0px rgba(213,212,203,0.77);
+    border-radius: 50px;
+}
+
+.projectName {
+    width: 15%;
+    height: 80px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.projectName h2 {
+    font-size: 30px;
+}
+
+.search {
+    width: 30%;
+    height: 80px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search input {
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    padding: 0px 16px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.navTitle {
+    width: 30%;
+    height: 80px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.navTitle p {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navTitle p:hover {
+    color: green;
+}
